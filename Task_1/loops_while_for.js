@@ -1,5 +1,5 @@
 // While loop
-console.log("Using while loop");
+console.log(`Using while loop`);
 let n = 1;
 while(n <=10){
     console.log(n);
@@ -7,7 +7,7 @@ while(n <=10){
 }
 
 // For loop
-console.log("\nUsing for loop");
+console.log(`\nUsing for loop`);
 let sum = 0;
 for(let i = 1;i <= 100;i++){
     sum = sum + i;

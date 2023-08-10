@@ -1,10 +1,10 @@
-let n = Math.round(Math.random() * 10) - 5;
-if(n === 0){
-    console.log(`Number(${n}) is Zero`);
+let number = Math.round(Math.random() * 10) - 5;
+if(number === 0){
+    console.log(`Number(${number}) is Zero`);
 }
-else if(n < 0){
-    console.log(`Number(${n}) is Negative`);
+else if(number < 0){
+    console.log(`Number(${number}) is Negative`);
 }
 else{
-    console.log(`Number(${n}) is Positive`);
+    console.log(`Number(${number}) is Positive`);
 }

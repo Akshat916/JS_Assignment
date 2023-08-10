@@ -5,4 +5,4 @@ function calculateArea(length, width){
 let l = Math.floor(Math.random() * 1000); // genrating random numbers
 let w = Math.floor(Math.random() * 1000); // genrating random numbers
 
-console.log("The area of rectangle is : "+calculateArea(l, w)); // Calling and displying result
+console.log(`The area of rectangle(${l},${w}) is : ${calculateArea(l, w)}`); // Calling and displying result
